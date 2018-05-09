@@ -1,0 +1,109 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "variables";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Prata');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: $c-dark-teal;
+  background-color: $c-white;
+  font-family: $f-sans-serif;
+  font-size: $fs-normal;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: $c-dark-teal;
+}
+
+a:hover{
+  color: $c-light-teal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h6 {
+  padding: 10px;
+  color: $c-white;
+  text-shadow: 3px 2px 1px $c-black;
+  font-size: $fs-title;
+  font-family: $f-serif;
+}
+
+.header {
+  padding: 20px;
+  color: $c-white;
+  background-color: $c-dark-teal;
+}
+
+a.logo,
+a.logo:visited {
+  font-size: $fs-logo;
+  font-family: $f-serif;
+  color: $c-white;
+  text-shadow: 3px 2px 1px $c-black;
+}
+
+.ribbon {
+  width: 100%;
+  height: 8px;
+  background-color: $c-light-teal;
+}
+
+.hero-image-container {
+  position: relative;
+  max-height: 900px;
+  overflow: hidden;
+}
+
+.progress-container {
+  height: 2px;
+  background-color: $c-light-teal;
+}
+
+.progress {
+  height: 100%;
+  float: left;
+  background-color: $c-white;
+}
+
+.footer {
+  color: $c-white;
+  background-color: $c-dark-teal;
+}
+
+.footer a {
+  color: $c-white;
+}
+
+.footer a:hover {
+  color: $c-light-teal; // TODO This is pretty harsh. Maybe find another color
+}
+
+.footer-container .row {
+  padding: 5px;
+}
+
+.footer-section p,
+.footer-section ul {
+  padding-left: 25px;
+}
+
+.copyright {
+  padding: 10px;
+  border-top: solid $c-white 1px;
+  text-align: center;
+}

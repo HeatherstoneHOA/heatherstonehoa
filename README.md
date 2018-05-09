@@ -5,6 +5,8 @@ This is the repository for heatherstonehoa.com.
 
 Items below should be done eventually but they are in no particular order.
 
+1. Add .gitignore on images and files. Probs need to set up Dropbox to serve these on the web server for now
+1. Add an .htacess file so that we can remove file extensions (won't break existing saved links)
 1. Add a favicon
 1. Google Analytics
 1. Compile / Minify CSS
