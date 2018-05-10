@@ -14,6 +14,8 @@
     $('.hero-image-container').slick({
       autoplay: true,
       autoplaySpeed: 5000,
+      pauseOnFocus: false,
+      pauseOnHover: false,
       arrows: false,
       dots: false,
       infinite: true,
@@ -32,9 +34,11 @@
   </div>
 
   <div class="hero-caption">
-    <h1>Welcome to Heatherstone!</h1>
-    <p>Thanks for visiting the Heatherstone HOA community website. Feel free to take a look around to learn more about our community.</p>
-    <p>If you are new or are interested in purchasing a home within our community, take a look at the bottom of the page to find our welcome information as well as other useful links and information.</p>
+    <div class="container">
+      <h1>Welcome to Heatherstone!</h1>
+      <p>Thanks for visiting the Heatherstone HOA community website. Feel free to take a look around to learn more about our community.</p>
+      <p>If you are new or are interested in purchasing a home within our community, take a look at the bottom of the page to find our welcome information as well as other useful links and information.</p>
+    </div>
   </div>
 </div>
 
