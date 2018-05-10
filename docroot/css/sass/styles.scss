@@ -17,7 +17,7 @@ body {
   color: $c-dark-teal;
   background-color: $c-white;
   font-family: $f-sans-serif;
-  font-size: $fs-normal;
+  font-size: $fs-medium;
 }
 
 a,
@@ -35,6 +35,14 @@ img {
   height: auto;
 }
 
+h1 {
+  padding: 10px;
+  color: $c-white;
+  text-shadow: 3px 2px 1px $c-black;
+  font-size: $fs-logo;
+  font-family: $f-serif;
+}
+
 h6 {
   padding: 10px;
   color: $c-white;
@@ -47,6 +55,11 @@ h6 {
   padding: 20px;
   color: $c-white;
   background-color: $c-dark-teal;
+  text-align: center;
+
+  @include desktop {
+    text-align: left;
+  }
 }
 
 a.logo,
@@ -69,15 +82,27 @@ a.logo:visited {
   overflow: hidden;
 }
 
-.progress-container {
-  height: 2px;
-  background-color: $c-light-teal;
+.hero-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  @include dark-overlay;
 }
 
-.progress {
-  height: 100%;
-  float: left;
-  background-color: $c-white;
+.hero-caption:after {
+  background:rgba(0, 0, 0, 0.45);
+}
+
+.hero-caption p {
+  padding-left: 50px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: $fs-extra-large;
+  font-family: $f-serif;
+  color: $c-white;
+  text-shadow: 3px 2px 1px $c-black;
 }
 
 .footer {
@@ -103,7 +128,17 @@ a.logo:visited {
 }
 
 .copyright {
-  padding: 10px;
-  border-top: solid $c-white 1px;
+  padding: 5px;
+  background-color: $c-black;
+  color: $c-white;
   text-align: center;
+}
+
+.copyright span {
+  line-height: 1.5;
+  display: block;
+
+  @include desktop {
+    display: inline;
+  }
 }

@@ -7,51 +7,10 @@
     'HHOA Flowers' => '/img/heros/flowers.jpg',
     'HHOA Pond with Bench' => '/img/heros/pond_bench.jpg',
   ];
-
-  // $dir = new DirectoryIterator(dirname(__FILE__) . '/img/heros');
-  // foreach ($dir as $fileinfo) {
-  //     if (!$fileinfo->isDot()) {
-  //         var_dump($fileinfo->getFilename());
-  //     }
-  // }
 ?>
 
 <script type="text/javascript">
   $(document).ready(function() {
-    // var $heros = $('.home-hero-image');
-    // $heros.hide();
-    //
-    // var index = 0;
-    // var $current_hero = $($heros.get(index));
-    // $current_hero.show();
-    //
-    // var time = 5000;
-    // var delay = 500;
-    //
-    // function slideshow() {
-    //   $('.progress').animate({
-    //     width: '100%'
-    //   }, time, function() {
-    //     $('.progress').css('width', '0%');
-    //
-    //     index++;
-    //     if (index == $heros.length) {
-    //       index = 0;
-    //     }
-    //
-    //     var $previous_hero = $current_hero;
-    //     $current_hero = $($heros.get(index));
-    //     $current_hero.show();
-    //     $previous_hero.hide();
-    //
-    //     setTimeout(slideshow, delay);
-    //   });
-    // }
-    //
-    // slideshow();
-
-
-
     $('.hero-image-container').slick({
       autoplay: true,
       autoplaySpeed: 5000,
@@ -65,13 +24,18 @@
   });
 </script>
 
-<div class="hero-image-container">
-  <?php foreach ($imgs as $alt => $src): ?>
-    <img class="home-hero-image" src="<?php print $src; ?>" alt="<?php print $alt; ?>" />
-  <?php endforeach; ?>
-</div>
-<div class="progress-container">
-  <div class="progress"></div>
+<div class="home-page-content">
+  <div class="hero-image-container">
+    <?php foreach ($imgs as $alt => $src): ?>
+      <img class="home-hero-image" src="<?php print $src; ?>" alt="<?php print $alt; ?>" />
+    <?php endforeach; ?>
+  </div>
+
+  <div class="hero-caption">
+    <h1>Welcome to Heatherstone!</h1>
+    <p>Thanks for visiting the Heatherstone HOA community website. Feel free to take a look around to learn more about our community.</p>
+    <p>If you are new or are interested in purchasing a home within our community, take a look at the bottom of the page to find our welcome information as well as other useful links and information.</p>
+  </div>
 </div>
 
 <?php
