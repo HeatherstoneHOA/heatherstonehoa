@@ -4,9 +4,9 @@
       <div class="col-md-4 footer-section">
         <h6>Quick Links:</h6>
         <ul>
-          <li><a href="/all-files">Welcome to Heatherstone!</a></li>
+          <li><a href="/welcome">Welcome to Heatherstone!</a></li>
           <li><a href="/all-files">All HOA Files</a></li>
-          <li><a href="/all-files">Calendar</a></li>
+          <li><a href="https://calendar.google.com/calendar?cid=aGVhdGhlcnN0b25lLmhvYS5ib2FyZEBnbWFpbC5jb20">Calendar</a></li>
         </ul>
       </div>
       <div class="col-md-4 footer-section">
