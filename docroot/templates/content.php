@@ -26,6 +26,9 @@
         <?php require "includes/header.php"; ?>
 
         <div class="ribbon"></div>
+        <div class="content-hero"></div>
+        <div class="ribbon"></div>
+
         <div class="container">
           <?php print $content; ?>
         </div>

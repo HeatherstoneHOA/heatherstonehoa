@@ -191,7 +191,6 @@ a.logo:visited {
   }
 }
 
-
 .file-group {
   margin-top: 10px;
   padding: 20px;
@@ -199,7 +198,7 @@ a.logo:visited {
 }
 
 .file-group:last-child {
-  border-top: none;
+  border-bottom: none;
 }
 
 .file-group h3 {
@@ -216,4 +215,14 @@ a.logo:visited {
   margin: 10px;
   display: block;
   font-weight: 700;
+}
+
+.content-hero {
+  height: 100%;
+  max-height: 400px;
+  background: url('/img/heros/flowers.jpg') -500px -162px;
+
+  @include desktop {
+    background: url('/img/heros/flowers.jpg') 0px -162px;
+  }
 }
