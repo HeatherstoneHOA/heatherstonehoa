@@ -33,6 +33,8 @@
     <?php endforeach; ?>
   </div>
 
+  <div class="ribbon phone-only"></div>
+
   <div class="hero-caption">
     <div class="container">
       <h1>Welcome to Heatherstone!</h1>
