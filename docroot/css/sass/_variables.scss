@@ -1,0 +1,26 @@
+
+// CSS Variables for the Heatherstone HOA site.
+
+$c-light-teal: #386F72;
+$c-dark-teal: #104547;
+$c-white: #eee;
+$c-black: #111;
+$c-caption-overlay: rgba(17, 17, 17, 0.5);
+
+$f-serif: 'Prata', serif;
+$f-sans-serif: 'Roboto', sans-serif;
+
+$fs-logo: 38px;
+$fs-small: 12px;
+$fs-medium: 14px;
+$fs-large: 16px;
+$fs-extra-large: 24px;
+$fs-title: 18px;
+
+$desktop-width: 990px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
