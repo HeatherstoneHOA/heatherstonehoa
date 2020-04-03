@@ -18,7 +18,7 @@
 <div class="file-group">
   <h3>HHOA Rules</h3>
   <p>The following link is the official rules that have been set in place by the volunteer board which all unit owners must abide by.</p>
-  <a class="file-link" href="/files/HHOA_Rules.pdf">HHOA Rules</a>
+  <a class="file-link" href="/files/HHOA_Rules_2020.pdf">HHOA Rules</a>
 </div>
 
 <p>Heatherstone has a volunteer board of directors that meet in the community clubhouse at 6:30pm on the second Wednesday of each month. All are welcome to attend, and all are welcome to participate! Board elections are held once a year, but please feel free to help out anytime, there are always projects going on within the commminity that we could use your help on.</p>

@@ -19,16 +19,20 @@
         <br />
         <p>
           <strong>Financial Office:</strong><br />
-          Phone: <a href="tel:5134597100">513-459-7100</a><br />
-          Email: <a href="mailto:">aai5134597100@gmail.com</a><br />
+          Phone: <a href="tel:5134597100">513-489-4059</a><br />
+          Email: <a href="mailto:">RayMcCollum@TowneProperties.com</a><br />
+          Email: <a href="mailto:">SavannahGlaub@TowneProperties.com</a><br />
         </p>
       </div>
       <div class="col-md-4 footer-section">
-        <h6>Make HOA Payments To:</h6>
+        <h6>Make Checks Payable To:</h6>
+        <p>Heatherstone Homeowners Association</p>
+
+        <h6>Send HOA Payments To:</h6>
         <p>
-          Heatherstone HOA<br />
-          P. O. Box 747<br />
-          Mason, OH 45040
+          Towne Properties<br />
+          P. O. Box 742632<br />
+          Cincinnati, OH 45274
         </p>
       </div>
     </div>
